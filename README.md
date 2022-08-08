@@ -1,3 +1,5 @@
+*This is a fork of <https://github.com/mhinz/vim-crates> that adds Vim support for the `:CratesToggle` command.*
+
 # vim-crates
 
 When maintaining Rust projects, this plugin helps with updating the dependencies
@@ -20,8 +22,8 @@ _[curl](https://curl.haxx.se) needs to be installed._
 - **:CratesToggle**
 
   For each dependency that is out-of-date, indicate the latest version as virtual
-  text after the end of the line. Use it again to remove all indicators. This is
-  a [Nvim](https://github.com/neovim/neovim/)-only feature.
+  text after the end of the line. Use it again to remove all indicators. This requires
+  [Nvim](https://github.com/neovim/neovim/) or a very recent version of Vim (> 9.0.0069).
 
   Customize the colors of the indicators like this:
 
